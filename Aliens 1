@@ -1,0 +1,9 @@
+firstLanding = int(input("How many aliens first landed on earth?"))
+weeks = int(input("And how many weeks have they been on earth?"))
+
+countingVar = 1
+
+if weeks == 0:
+  print("There are only",firstLanding,"aliens on Earth")
+else:
+  print( firstLanding * (2 ** weeks),"Aliens are on earth after", weeks ,"weeks")  
