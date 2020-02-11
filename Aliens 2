@@ -7,6 +7,7 @@ countingVar = 1
 
 if weeks == 0:
   print("There are only",firstLanding,"aliens on Earth")
+#added while loop to count week by week
 while countingVar < (weeks + 1):
   print( firstLanding * (2 ** countingVar),"are on earth after", countingVar ,"weeks")
   countingVar = countingVar + 1
